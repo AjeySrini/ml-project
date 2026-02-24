@@ -34,6 +34,19 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
+C:\Users\ajeys\ml-project>git init
+Reinitialized existing Git repository in C:/Users/ajeys/ml-project/.git/
+
+C:\Users\ajeys\ml-project>git add .
+
+C:\Users\ajeys\ml-project>git commit -m "Initial commit"
+[main a7a63bf] Initial commit
+ 2 files changed, 74 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 predict.py
+
+C:\Users\ajeys\ml-project>gh repo create ml-project --public --source=. --remote=origin --push
+
 
 C:\Users\ajeys\ml-project>git add train.py utils.py
 
