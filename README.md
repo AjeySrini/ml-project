@@ -132,4 +132,37 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
+C:\Users\ajeys\ml-project>git add .
+
+C:\Users\ajeys\ml-project>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   config.py
+        modified:   utils.py
+
+Commit the changes with commit msg
+
+C:\Users\ajeys\ml-project>git commit -m "Update utilities and add config file"
+[main af3102a] Update utilities and add config file
+ 3 files changed, 47 insertions(+)
+ create mode 100644 config.py
+
+push to github
+
+C:\Users\ajeys\ml-project>git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 977 bytes | 977.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/AjeySrini/ml-project.git
+   fc40eda..af3102a  main -> main
+
+
 
