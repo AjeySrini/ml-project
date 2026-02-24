@@ -85,3 +85,5 @@ Untracked files:
         predict.py
 
 nothing added to commit but untracked files present (use "git add" to track)
+
+Changes from team mate then i will do git pull in local 
