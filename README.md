@@ -87,3 +87,49 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 
 Changes from team mate then i will do git pull in local 
+
+Below command to get remote changes got the above lines
+
+
+C:\Users\ajeys\ml-project>git pull
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 1.93 KiB | 141.00 KiB/s, done.
+From https://github.com/AjeySrini/ml-project
+   91734d5..fc40eda  main       -> origin/main
+Updating 91734d5..fc40eda
+Fast-forward
+ README.md  | 2 ++
+ predict.py | 4 +++-
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+C:\Users\ajeys\ml-project>git pull origin main
+From https://github.com/AjeySrini/ml-project
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+
+C:\Users\ajeys\ml-project>type nul > config.py
+
+To check status of file to track 
+
+
+C:\Users\ajeys\ml-project>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   utils.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        config.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
